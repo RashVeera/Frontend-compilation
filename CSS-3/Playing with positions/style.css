@@ -1,0 +1,30 @@
+.A{
+    width: 300px;
+    height: 300px;
+    background-color:black;
+    position: relative;
+}
+
+.B{
+    width: 300px;
+    height: 300px;
+    background-color:red;
+    position: relative;
+    top:20px;
+    left:20px;
+}
+
+.C{
+    width: 300px;
+    height: 300px;
+    background-color:green;
+    position: relative;
+    top:20px;
+    left:20px;
+}
+
+.close{
+    position: absolute;
+    top:0px;
+    right:0px;
+}

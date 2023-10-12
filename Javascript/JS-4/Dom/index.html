@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Click Me</button>
+    <div style="display: block; height: 300px; width: 300px; background-color: red;"></div>
+    <script>
+        let btn=document.querySelector('button');
+        let div1=document.querySelector('div');
+        console.log(btn);
+        btn.addEventListener('click',() => {
+            div1.style.backgroundColor="blue";
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+/* Write CSS code here */
+.grid-container{
+	display: grid;
+    height: 100vh;
+	grid-template-columns: 0.4fr 1fr 1fr;
+	grid-template-rows: 0.3fr 1fr 0.3fr;
+	grid-template-areas: "header header header"
+	"nav main-content main-content"
+	"footer footer footer";
+}
+.header{
+	background-color: lightgray;
+	grid-area: header;
+}
+
+.nav{
+	background-color: lightgray;
+	grid-area: nav;
+
+}
+
+.content{
+	background-color: gray;
+	grid-area: main-content;
+}
+
+.footer{
+	background-color: lightgray;
+	grid-area: footer;	
+}

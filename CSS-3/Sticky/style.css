@@ -1,0 +1,14 @@
+.nav{
+    background-color: #000000;
+    height: 20px;
+    position: sticky;
+    top:0px;
+}
+
+li{
+    text-decoration: none;
+    color: white;
+    display: inline;
+    margin-right: 10px;
+    text-align: center;
+}

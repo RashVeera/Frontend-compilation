@@ -1,0 +1,15 @@
+.ancestor{
+    height: 500px;
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap:2rem;
+    justify-content: space-between ;
+    align-content: flex-start;
+}
+
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+}

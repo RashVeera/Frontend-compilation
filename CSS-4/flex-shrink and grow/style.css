@@ -1,0 +1,27 @@
+.parent>div{
+    background-color: brown;
+    padding: 5rem;
+    flex-grow: 1;
+}
+
+.parent{
+display: flex;
+flex-direction: row;
+gap: 2rem;
+flex-wrap: wrap;
+}
+
+.special{
+    flex-shrink: 4;
+}
+
+body{
+    background-color: black;
+}
+
+@media screen and (max-width:400px) {
+    body{
+        background-color: green;
+    }
+  
+}

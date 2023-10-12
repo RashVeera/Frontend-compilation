@@ -1,0 +1,34 @@
+.container{
+    display: grid;
+    grid-template-rows:0.2fr 1fr 0.2fr ;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    grid-template-areas: "sidebar header header"
+    "sidebar section1 section2"
+    "sidebar footer footer";
+    height: 100vh;
+}
+
+.header{
+grid-area: header;
+background-color: yellow;
+}
+
+.side{
+    grid-area: sidebar;
+    background-color: aqua;
+}
+
+.sec1{
+    grid-area: section1;
+    background-color: bisque;
+}
+
+.sec2{
+    grid-area: section2;
+    background-color: gold;
+}
+
+.foot{
+    grid-area:footer;
+    background-color: brown;
+}

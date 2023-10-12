@@ -1,0 +1,268 @@
+.head{
+    height: 10vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.head>img{
+    max-height: 30%;
+    align-self: center;
+    margin-left: 2%;
+}
+
+.head>p{
+    border: 1px solid  hsl(322, 100%, 66%) ;
+    color: hsl(322, 100%, 66%);
+    padding: 0.5rem ;
+    border-radius: 25px;
+    margin-right: 3%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+}
+
+.main1{
+    height: 175vh;
+    /* background-color: aqua; */
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main1>h1{
+    text-align: center;
+}
+.main1>.section{
+    height: 20vh;
+    width: 35vw;
+    /* background-color: beige; */
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main1>.section>button{
+    background-color:hsl(322, 100%, 66%) ;
+    color: white;
+    padding: 0.5rem 2rem 0.5rem 2rem ;
+    border-radius: 25px;
+    border: 0px;
+}
+
+.main1>img{
+    margin-top: 5%;
+    height: 80vh;
+    margin-left: 5%;
+}
+
+.quantify{
+    height: 50vh;
+    /* background-color: bisque; */
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+   
+}
+
+.quantify>.side1,.quantify>.side2{
+ height: 40vh;
+ /* background-color: blue; */
+ width: 20vw;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin-left: 5%;
+
+}
+
+.quantify>.side1>img,.quantify>.side2>img{
+    width: 30px;
+    height: 20px;
+}
+
+.quantify h1{
+    font-size: xxx-large;
+}
+
+.quantify h1 span{
+    font-size: x-large;
+    font-weight: bolder;
+
+}
+
+
+
+.main2>img,.main3>img,.main4>img{
+    display: block;
+  width: 100%;
+
+}
+
+.main2>.content,.main4>.content{
+    height: 40vh;
+    display: flex;
+    background-color: #F6FBFF;
+    justify-content: center;
+    align-items: center;
+
+}
+.main3>.content{
+    height: 40vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main2>.content>.side1,.main3>.content>.side1,.main4>.content>.side1{
+    height: 40vh;
+    width: 50vw;
+    padding-top: 15%;
+    padding-left: 5%;
+}
+
+.content>.side1>h1{
+    display: block;
+    margin: 0px;
+}
+
+.content>.side1>p{
+    display: block;
+    margin: 20px 0px 0px 0px;
+    padding: 0px 20px 0px 3px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main2>.content>.side2,.main3>.content>.side2,.main4>.content>.side2{
+    height: 40vh;
+    width: 60vw;
+    
+}
+
+.main2>.content>.side2>img,.main3>.content>.side2>img,.main4>.content>.side2>img{
+    max-height: 100%;
+    margin-left: 20%;
+}
+
+.foot1{
+    height: 40vh;
+    text-align: center;
+}
+
+.foot1>h1{
+    margin-top: 10%;
+}
+
+.foot1>button{
+    padding: 0.6rem 1rem 0.6rem 1rem ;
+    border-radius: 25px;
+    border: 0px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+
+
+/* .main2>img:nth-child(1){
+    transform: rotate(180deg); 
+} */
+
+.foot2>img{
+    display: block;
+    width: 100%;
+  
+}
+
+.foot2>.height{
+    background-color:  #0c3038;
+    height: 50vh;
+    color: white;
+    display: flex;
+}
+
+.foot2>.height>.side1{
+    width: 30vw;
+    height: 40vh;
+    /* background-color: navy; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* margin-top: 10%;
+    margin-left: 10%; */
+}
+
+.height>.side1{
+    /* margin-top: 10%; */
+    margin-left: 10%;
+    display: inline;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.height>.side1>p{
+    font-size: small;
+    padding-right: 3rem;
+}
+
+.foot2>.height>.side1>img{
+   height: 25px;
+   width: 80px;
+} 
+
+.container1>p{
+    display: inline;
+    margin-top: 2%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+}
+
+.container1>img{
+    width: 10px;
+    height: 10px;
+}
+
+.height>.side2{
+    width: 30vw;
+    height: 30vh;
+    display: inline;
+    /* background-color: blue; */
+    margin-top: 7%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.height>.side2>.same{
+    display: flex;
+    gap: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.height>.side2 input{
+    border: 0px;
+    width: 160px;
+    height: 23px;
+    border-radius: 2px;
+}
+
+.height>.side2 button{
+    display: inline;
+    width: 100px;
+    height: 25px;
+    border-radius: 2px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border: 0px;
+}
+
+
+.height>.side2>span:nth-child(1){
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.height>.side2>span:nth-child(2){
+    font-size: x-small;
+    padding-right: 8rem;
+}
